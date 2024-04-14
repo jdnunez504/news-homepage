@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="source/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="assets/images/logo.svg" alt="W. company logo" class="brand-logo">
+    <div class="nav-mobile-menu-wrapper">
+      <img src="assets/images/icon-menu.svg" alt="Mobile menu icon" class="navbar-mobile-icon-menu" id="openBtn">
+    </div>
+    <div class="nav-wrapper">
+      <ul class="nav">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">New</a></li>
+        <li class="nav-item"><a href="#">Popular</a></li>
+        <li class="nav-item"><a href="#">Trending</a></li>
+        <li class="nav-item"><a href="#">Categories</a></li>
+      </ul>
+    </div>
+    <div class="nav-mobile-overlay" id="overlay"></div>
+    <div class="nav-wrapper-mobile" id="mobile-menu">
+      <ul class="nav-mobile">
+        <li class="nav-item-mobile"><a href="#">Home</a></li>
+        <li class="nav-item-mobile"><a href="#">New</a></li>
+        <li class="nav-item-mobile"><a href="#">Popular</a></li>
+        <li class="nav-item-mobile"><a href="#">Trending</a></li>
+        <li class="nav-item-mobile"><a href="#">Categories</a></li>
+      </ul>
+      <img src="assets/images/icon-menu-close.svg" alt="Mobile close menu icon" class="nav-mobile-icon-menu-close" id="closeBtn">
+    </div>
+
+
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="top-wrapper">
+      <main class="main-article">
+        <img class="main-article-img" src="assets/images/image-web-3-desktop.jpg" alt="Main article image">
+        <img class="main-article-img-mobile" src="assets/images/image-web-3-mobile.jpg" alt="Main article image">
+        <div class="main-text-block">
+          <h1 class="main-article-heading">The Bright Future of Web 3.0?</h1>
+          <div class="main-article-pgroup">
+            <p class="main-article-description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="main-article-button">Read more</button>
+          </div>
+        </div>
+
+      </main>
+      <aside class="sidebar">
+        <h1 class="sidebar-heading">New</h1>
+        <section class="sidebar-article">
+          <h2 class="sidebar-article-link"><a href="#">Hydrogen VS Electric Cars</a></h2>
+          <p class="sidebar-article-description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </section>
+        <section class="sidebar-article">
+          <h2 class="sidebar-article-link"><a href="#">The Downsides of AI Artistry</a></h2>
+          <p class="sidebar-article-description">What are the possible adverse effects of on-demand AI image generation?</p>
+        </section>
+        <section class="sidebar-article">
+          <h2 class="sidebar-article-link"><a href="#">Is VC Funding Drying Up?</a></h2>
+          <p class="sidebar-article-description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+      </aside>
+    </div>
+
+    <nav class="nav-articles">
+      <section class="nav-article">
+        <img class="nav-article-img" src="assets/images/image-retro-pcs.jpg" alt="External article 1 image">
+        <hgroup>
+          <p class="nav-article-numeral">01</p>
+          <h1 class="nav-article-link"><a href="#">Reviving Retro PCs</a></h1>
+        </hgroup>
+        <p class="nav-article-description">What happens when old PCs are given modern upgrades?</p>
+      </section>
+      <section class="nav-article">
+        <img class="nav-article-img" src="assets/images/image-top-laptops.jpg" alt="External article 2 image">
+        <hgroup>
+          <p class="nav-article-numeral">02</p>
+          <h1 class="nav-article-link"><a href="#">Top 10 Laptops of 2022</a></h1>
+        </hgroup>
+        <p class="nav-article-description">Our best picks for various needs and budgets.</p>
+      </section>
+      <section class="nav-article">
+        <img class="nav-article-img" src="assets/images/image-gaming-growth.jpg" alt="External article 3 image">
+        <hgroup>
+          <p class="nav-article-numeral">03</p>
+          <h1 class="nav-article-link"><a href="#">The Growth of Gaming</a></h1>
+        </hgroup>
+        <p class="nav-article-description">How the pandemic has sparked fresh opportunities.</p>
+      </section>
+    </nav>
+  </div>
+  <script type="text/javascript" src="source/script.js"></script>
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. -->
+<!--    Coded by <a href="#">Your Name Here</a>.-->
+<!--  </div>-->
+</body>
+</html>
